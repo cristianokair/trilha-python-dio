@@ -18,6 +18,9 @@ class Aviao(Passaro):
     def voar(self):
         print("Avião está decolando...")
 
+class Drone:
+    def voar(self):
+        print("drone voando")
 
 def plano_voo(obj):
     obj.voar()
@@ -26,3 +29,4 @@ def plano_voo(obj):
 plano_voo(Pardal())
 plano_voo(Avestruz())
 plano_voo(Aviao())
+plano_voo(Drone())
